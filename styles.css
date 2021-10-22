@@ -1,40 +1,43 @@
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Rock Salt', cursive*/
-body{
+body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   color: #353535;
-  
 }
-h2{
+
+h2 {
   font-family: 'Rock Salt', cursive;
-   
 }
-a{
+
+a {
   text-decoration: none;
-  color: black;
+  color: #353535;
   padding: 0 .5%;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-li{
+
+li {
   line-height: 2;
   padding: 1%;
-  width:70%;
+  width: 70%;
 }
-p{
+
+p {
   line-height: 2;
 }
+
 /*Navigation and links on each page*/
-.navigation-bar{
+.navigation-bar {
   font-size: 1.5em;
-  /*background-color: #e5e5e5;*/
   height: 12vh;
 }
 
-#nav-heading{
+#nav-heading {
   font-size: 1.25em;
   padding-left: 2%;
   letter-spacing: 1.5px;
@@ -42,16 +45,19 @@ p{
   display: inline-block;
   color: #da7635;
 }
-#nav-links{
+
+#nav-links {
   font-size: .7em;
   text-align: right;
   width: 45%;
   display: inline-block;
 }
-.footer{
-  border-top: 0.5em solid #353535;
+
+.footer {
+  border-top: 0.3em solid #353535;
 }
-#footer-heading{
+
+#footer-heading {
   font-size: .8em;
   padding-left: 2%;
   letter-spacing: 1.5px;
@@ -59,23 +65,25 @@ p{
   display: inline-block;
   color: #da7635;
 }
-#footer-links{
+
+#footer-links {
   font-size: .55em;
   text-align: right;
   width: 45%;
   display: inline-block;
   margin-top: 3%;
 }
-#link-button{
+
+#link-button {
   display: inline-block;
   color: white;
-  background-color:#da7635;
+  background-color: #da7635;
   border-radius: 5px;
   padding: 1em;
-  
 }
+
 /* Landing sections for each page*/
-.landing-section{
+.landing-section {
   height: 80vh;
   border: #353535 0.5px solid;
   background-size: cover;
@@ -85,10 +93,10 @@ p{
   letter-spacing: 2px;
   text-align: center;
   padding: 2%;
-  
 }
-#about-landing{
-  background-image:url("https://images.unsplash.com/photo-1584449879552-d4a37ce5e5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
+#about-landing {
+  background-image: url("https://images.unsplash.com/photo-1584449879552-d4a37ce5e5c1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   color: green;
   min-height: 100%;
   background-attachment: fixed;
@@ -96,113 +104,115 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
-#home-landing{
+
+#home-landing {
   background-image: url("https://images.unsplash.com/photo-1604187351574-c75ca79f5807?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVjeWNsZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   color: white;
 }
-#learn-landing{
+
+#learn-landing {
   background-image: url("https://images.unsplash.com/photo-1573706376056-55f27105ff17?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGxlYXJuaW5nJTIwYW5kJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-position: center;
 }
-#people-landing{
-  background-image:url("https://media.wnyc.org/i/800/0/c/85/1/shutterstock_172218053.jpg")
+
+#people-landing {
+  background-image: url("https://media.wnyc.org/i/800/0/c/85/1/shutterstock_172218053.jpg")
 }
-#resources-landing{
-  background-image:url("https://www.themarcomgroup.com/wp-content/uploads/2016/09/businessman-hands-busy-using-cell-phone-at-office-desk.jpg")
+
+#resources-landing {
+  background-image: url("https://www.themarcomgroup.com/wp-content/uploads/2016/09/businessman-hands-busy-using-cell-phone-at-office-desk.jpg")
 }
 
 /*contents on page*/
 /*content under the hero image*/
-.content-description{
+.content-description {
   margin: 5%;
 }
-#content-para{
+
+#content-para {
   text-align: center;
   margin: 1% 10%;
   font-size: 1.2em;
 }
+
 /*content with image and text*/
-.content-img-section{
-  /*background-color: #e5e5e5;*/
-}
-.content-img{
-  display:inline-block;
+.content-img {
+  display: inline-block;
   width: 45%;
 }
-.content-img-img{
+
+.content-img-img {
   width: 80%;
-  
   height: 45vh;
-  /*box-shadow: 3px 5px #da7635, -1.2em -.4em .8em #8eb1c7;*/
   box-shadow: 15px 15px 2px 1px #8eb1c7;
 }
-.content-img-text{
-  display:inline-block;
+
+.content-img-text {
+  display: inline-block;
   width: 45%;
   vertical-align: top;
   margin-top: 6%;
   font-weight: 600;
 }
-.content-facts{
+
+.content-facts {
   margin: 5% 13%;
-  
 }
-.flex-container-row{
+
+.flex-container-row {
   display: flex;
   flex-direction: row;
   width: 100%;
-  
 }
 
-.flex-container-col{
-  display:flex;
+.flex-container-col {
+  display: flex;
   flex-direction: column;
 }
-a >img{
+
+a>img {
   width: 95%;
 }
-a> p{
+
+a>p {
   text-align: center;
-  
 }
 
 /*About me page*/
-.about-container{
+.about-container {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 4%;
 }
-.about-container-item{
+
+.about-container-item {
   letter-spacing: .2em;
-  
-}
-#biography{
- text-align:center;
 }
 
-/*#hobbies-dance:hover{
-  transition: 1000ms ease-in;
-  background-image: url('https://images.pexels.com/photos/12312/pexels-photo-12312.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-  height: 300px;
-  width: 300px;
-}*/
-#favorites{
-  
+#biography {
+  text-align: center;
 }
+
+#favorites {}
 
 /*spacing and aligning elements*/
-
-.center{
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.letter-spacing{
+
+.letter-spacing {
   letter-spacing: .2em;
 }
-.space{
+
+.space {
   margin: 2%;
 }
+
+
+
