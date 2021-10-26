@@ -75,13 +75,14 @@ p {
 }
 
 #link-button {
-  display: inline-block;
+  color: #da7635;
+  /*display: inline-block;
   color: white;
   background-color: #da7635;
   border-radius: 5px;
   padding: 1em;
+  */
 }
-
 /* Landing sections for each page*/
 .landing-section {
   height: 80vh;
@@ -136,6 +137,13 @@ p {
 }
 
 /*content with image and text*/
+.content-img-section{
+  margin: 0 5%;
+  padding: 2%;
+  background:radial-gradient(white 60%, lightgray );
+    
+
+}
 .content-img {
   display: inline-block;
   width: 45%;
@@ -195,7 +203,7 @@ a>p {
 
 #favorites {}
 
-/*spacing and aligning elements*/
+/*spacing, aligning elements*/
 .center {
   display: block;
   margin-left: auto;
@@ -214,5 +222,8 @@ a>p {
   margin: 2%;
 }
 
+.shadow{
+  box-shadow: 15px 15px 20px #da7635;
+}
 
 
